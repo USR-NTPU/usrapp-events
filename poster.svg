@@ -1,0 +1,128 @@
+<svg  viewBox="0 0 500 750" xmlns="http://www.w3.org/2000/svg">
+<style>
+.poster, .poster-template-holder {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.poster-date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
+  flex-direction: column;
+}
+.poster-template.footer-container, .poster-template.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap:3px;
+}
+.poster-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.poster-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+  .poster-title {
+      text-align: center;
+  }
+  .poster-template-holder {
+        /* border-style: solid; */
+    /* border-color: red; */
+    /* content: fit;
+    display: flex;
+    align-content: center;
+    justify-content: center; */
+    margin:auto;
+    aspect-ratio: 2/3;
+    border-style: solid;
+    /* background-color: #136840; */
+    /* background-blend-mode: darken; */
+    /* background-size: auto; */
+    background-position: top;
+    border-style: solid;
+    background-size: cover;
+    /* background-position-y: 13px; */
+  }
+  .date-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+  .date-md {
+  font-size: 1.5rem;
+}
+.date-yyyy {
+  font-size: 1rem;
+}
+.date-interval {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.time-frequency-container, .time-interval {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.time-interval {
+  flex-direction: row;
+  align-items: flex-end
+}
+.time-frequency-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+</style>
+<foreignObject width="500" height="750">
+<div class="poster-template-holder" 
+style="background-image: url(default-poster.png)"
+xmlns="http://www.w3.org/1999/xhtml" >
+    <div  class="poster-content">
+        <h4 class="poster-title">
+        從twitter到tiktalk–數位媒體人的網路資訊觀察
+        </h4>
+        <div class="poster-date">
+            <div class="date-container">
+                <div class="date-yyyy">2022</div>
+                    <div class="date-md">11月9日</div>
+                </div>
+            <div class="time-interval">
+                <div class="time-container">1:00PM</div>  
+                    <span>-</span>  
+                <div class="time-container">3:00PM</div>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <h4 id="">創創講堂</h4>
+        </div>
+    </div>
+</div>
+</foreignObject>
+</svg>
